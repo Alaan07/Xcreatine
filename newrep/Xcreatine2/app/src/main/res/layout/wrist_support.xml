@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="@drawable/product_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/wrist_support"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wrist Support"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rs. 599"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ask you Trainer for further details and to buy."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym wrist supports, also known as wrist wraps or wrist straps, are fitness accessories designed to provide additional stability and support to the wrists during weightlifting and other intense gym exercises. They are commonly used by weightlifters, powerlifters, bodybuilders, and fitness enthusiasts who perform exercises that put significant stress on the wrists. Here's what you need to know about gym wrist supports:"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrist Wraps: Wrist wraps are typically made of elastic or a blend of elastic and cotton materials. They are long strips of fabric with a loop or hook-and-loop closure system that wraps around the wrists. When properly worn, wrist wraps offer compression and support to the wrists, helping to stabilize them during heavy lifting movements."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrist Straps: Wrist straps are different from wrist wraps and are used for a specific purpose. They are made of strong materials like cotton or nylon and are used to improve grip strength. Wrist straps loop around the wrist and then wrap around the barbell or dumbbell to improve grip during exercises like deadlifts and rows."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stability and Support: Gym wrist supports help maintain proper wrist alignment and prevent excessive bending or hyperextension during exercises like bench presses, overhead presses, squats, and cleans. This added stability can reduce the risk of wrist injuries and enhance overall performance."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preventing Wrist Pain: If you have a history of wrist pain or discomfort during lifting exercises, wrist supports can help alleviate some of the strain on your wrists, making your workouts more comfortable and enjoyable."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

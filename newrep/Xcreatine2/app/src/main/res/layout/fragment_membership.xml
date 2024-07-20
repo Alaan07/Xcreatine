@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MembershipFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sleeplines"
+                    tools:ignore="MissingConstraints">
+                </pl.droidsonroids.gif.GifImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Your The BEST"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="When"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="You are The PRO"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="250dp"
+                   android:layout_gravity="center_vertical"
+                    android:src="@drawable/dot" />
+
+            </androidx.cardview.widget.CardView>
+
+
+<!-- ********************all_plans_start*********************-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Membership plans :"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <!--*************************************************************-->
+                    <!--     *********************basic start********************************-->
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/basic_plan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="10dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:background="#E5FDBD" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/membership" />
+
+                        <TextView
+                            android:id="@+id/basic_plan_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="25dp"
+                            android:text="BASIC"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/basic_plan_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="75dp"
+                            android:drawableLeft="@drawable/rupee_product"
+                            android:text="2,999"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/basic_plan_buy_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_marginLeft="170dp"
+                            android:layout_marginTop="100dp"
+                            android:backgroundTint="#B2C8F5"
+                            android:elevation="20dp"
+                            android:text="Buy Now"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="160dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp">
+
+                            <Button
+                                android:id="@+id/basic_btn_more"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/transparent"
+                                android:drawableLeft="@drawable/downarrow"
+                                android:text="more"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/basic_btn_less"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/transparent"
+                                android:drawableLeft="@drawable/up_arrow"
+                                android:text="less"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black"
+                                android:visibility="gone" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/plan_details_basic"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="15dp"
+                                android:backgroundTint="@color/white"
+                                android:visibility="gone"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginRight="10dp"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:drawablePadding="10dp"
+                                        android:text="Validity for 30 Days."
+                                        android:textColor="@color/black"
+                                        />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Access to whole 1st floor."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Discount from 3,999."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!-- **************************basic end********************-->
+                    <!--*********************************************************************-->
+                    <!--  *********************silver start*************************-->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="10dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/basic_plan">
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:background="#797979" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/membership"
+                            app:tint="@color/silver"/>
+
+                        <TextView
+                            android:id="@+id/silver_plan_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="25dp"
+                            android:text="SILVER"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/silver_plan_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="75dp"
+                            android:drawableLeft="@drawable/rupee_product"
+                            android:text="4,999"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/silver_plan_buy_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_marginLeft="170dp"
+                            android:layout_marginTop="100dp"
+                            android:backgroundTint="#B2C8F5"
+                            android:elevation="20dp"
+                            android:text="Buy Now"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="160dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp">
+
+                            <Button
+                                android:id="@+id/silver_btn_more"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/transparent"
+                                android:drawableLeft="@drawable/downarrow"
+                                android:text="more"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/silver_btn_less"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/transparent"
+                                android:drawableLeft="@drawable/up_arrow"
+                                android:text="less"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black"
+                                android:visibility="gone" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/plan_details_silver"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="15dp"
+                                android:backgroundTint="@color/white"
+                                android:visibility="gone"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginRight="10dp"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:drawablePadding="10dp"
+                                        android:text="Validity for 60 Days."
+                                        android:textColor="@color/black"
+                                        />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Access to whole 1st and 2nd floor."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Discount from 5,999."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ****************silver end*************************-->
+                    <!--  **********************GoldStart********************-->
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginRight="10dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cardView6">
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:background="#708AA9" />
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/membership"
+                            app:tint="@color/gold"/>
+
+                        <TextView
+                            android:id="@+id/gold_plan_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="25dp"
+                            android:text="GOLD"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/gold_plan_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="180dp"
+                            android:layout_marginTop="75dp"
+                            android:drawableLeft="@drawable/rupee_product"
+                            android:text="9,999"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/gold_plan_buy_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_marginLeft="170dp"
+                            android:layout_marginTop="100dp"
+                            android:backgroundTint="#B2C8F5"
+                            android:elevation="20dp"
+                            android:text="Buy Now"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="160dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp">
+
+                            <Button
+                                android:id="@+id/gold_btn_more"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/transparent"
+                                android:drawableLeft="@drawable/downarrow"
+                                android:text="more"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/gold_btn_less"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@android:color/transparent"
+                                android:drawableLeft="@drawable/up_arrow"
+                                android:text="less"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black"
+                                android:visibility="gone" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/plan_details_gold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="15dp"
+                                android:backgroundTint="@color/white"
+                                android:visibility="gone"
+                                app:cardCornerRadius="20dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="30dp"
+                                        android:layout_marginRight="10dp"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:drawablePadding="10dp"
+                                        android:text="Validity for 150 Days."
+                                        android:textColor="@color/black"
+                                        />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Access to whole 1st, 2nd and 3rd floor."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Eligible to be a Trainer."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawableLeft="@drawable/right_arrow"
+                                        android:text="Discount from 12,999."
+                                        android:layout_margin="10dp"
+                                        android:drawablePadding="10dp"
+                                        android:textColor="@color/black"
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- *********************GoldEnd****************************-->
+                    <!--*****************trainer Start***********************-->
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="25dp"
+                        android:backgroundTint="#9BE8D8"
+                        app:cardCornerRadius="30dp"
+                        app:cardElevation="20dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Become a Trainer"
+                            android:textColor="@color/black"
+                            android:textSize="40sp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginRight="20dp"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="0dp">
+
+                            <Button
+                                android:id="@+id/trainer_btn_more"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:backgroundTint="#ADADAD"
+                                android:drawableLeft="@drawable/downarrow"
+                                android:text="more"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/trainer_btn_less"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:backgroundTint="#ADADAD"
+                                android:drawableLeft="@drawable/up_arrow"
+                                android:text="less"
+                                android:textAllCaps="false"
+                                android:textColor="@color/black"
+                                android:visibility="gone" />
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/plan_details_trainer"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:backgroundTint="@color/white"
+                                android:visibility="gone"
+                                app:cardCornerRadius="20dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:drawableLeft="@drawable/right_arrow"
+                                    android:drawablePadding="10dp"
+                                    android:text="Visit the Gym."
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="60dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:drawableLeft="@drawable/right_arrow"
+                                    android:drawablePadding="10dp"
+                                    android:text="Attend the trainers exam."
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="140dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:drawableLeft="@drawable/right_arrow"
+                                    android:drawablePadding="10dp"
+                                    android:text="Fitness Exam."
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="200dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:drawableLeft="@drawable/right_arrow"
+                                    android:drawablePadding="10dp"
+                                    android:text="Bank Credentials"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--*****************trainer Start***********************-->
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+<!-- ********************all_plans_end*********************-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#4C4A4A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView9">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ask Any Queries :"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <EditText
+                    android:id="@+id/mail_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Mail us your questions here"
+                    android:paddingLeft="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <Button
+                    android:id="@+id/support_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Send"
+                    android:onClick="send_mail"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginLeft="60dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

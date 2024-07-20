@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="@drawable/product_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/wheyprotine"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Whey Protein"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1KG(rs.1,999), 2KG(rs.2,999) and 3KG(rs.3,999)."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ask you Trainer for further details and to buy."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whey protein is a high-quality protein derived from milk during the cheese-making process. It is a popular dietary supplement used by athletes, bodybuilders, and fitness enthusiasts to support muscle growth, recovery, and overall health."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protein Content: Whey protein is rich in essential amino acids, especially branched-chain amino acids (BCAAs) like leucine, isoleucine, and valine. These amino acids are crucial for muscle protein synthesis and repair."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benefits: Whey protein is an excellent source of protein and has several benefits, including:
+
+Supporting muscle recovery and growth: The high-quality amino acid profile helps repair and build muscle tissues after exercise.
+Weight management: It can help with weight loss by promoting satiety and preserving lean muscle mass.
+Immune system support: Whey protein contains immunoglobulins and lactoferrin, which can aid in supporting the immune system.
+Convenient and easy to consume: Whey protein supplements are available in various forms like powders, bars, and ready-to-drink shakes, making them easy to incorporate into your diet."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usage: Many people consume whey protein by mixing the powder with water or milk to create a protein shake. It is often taken as a post-workout supplement to enhance muscle recovery and stimulate protein synthesis."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Considerations: While whey protein is safe for most people, those with lactose intolerance or milk allergies should opt for whey protein isolate or hydrolysate to avoid potential digestive issues. Additionally, excessive protein intake can strain the kidneys, so it's essential to consume whey protein in moderation and maintain a balanced diet."
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.xcreatine.HomeFragment"
+        android:label="homeFragment"
+        tools:layout="@layout/fragment_home"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/memberFragment"
+        android:name="com.example.xcreatine.MembershipFragment"
+        android:label="membershipFragment"
+        tools:layout="@layout/fragment_membership"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.example.xcreatine.ShopFragment"
+        android:label="shopFragment"
+        tools:layout="@layout/fragment_shop"
+        >
+    </fragment>
+
+    <action
+        android:id="@+id/homeFragment_to_memberFragment"
+        app:destination="@id/memberFragment" />
+
+</navigation>

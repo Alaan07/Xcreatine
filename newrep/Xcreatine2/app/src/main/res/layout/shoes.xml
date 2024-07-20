@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="@drawable/product_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/shoes"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gym Shoes"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rs. 2,999"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ask you Trainer for further details and to buy."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym shoes, also known as training shoes or cross-training shoes, are athletic footwear designed to provide stability, support, and comfort during various types of gym workouts and exercises. Whether you're lifting weights, doing cardio, or participating in group fitness classes, having the right gym shoes can enhance your performance and reduce the risk of injuries. Here are some key features and considerations when choosing gym shoes:"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Versatility: Look for gym shoes that are versatile and suitable for a wide range of activities. Cross-training shoes are designed for this purpose, as they offer support for activities like weightlifting, aerobics, and agility exercises."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Support and Stability: Gym shoes should have adequate support and stability features to help with lateral movements, quick changes in direction, and movements that put stress on the ankles."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grip and Traction: The outsole of gym shoes should provide excellent traction to prevent slipping and ensure a solid grip on various surfaces, including gym floors and exercise mats."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heel Counter: The heel counter is the part of the shoe that wraps around the back of your heel. It should be firm and offer stability to prevent your heel from slipping during lateral movements."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

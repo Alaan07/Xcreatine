@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="@drawable/product_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/gloves"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gym Gloves"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rs. 999"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ask you Trainer for further details and to buy."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym gloves, also known as weightlifting gloves or fitness gloves, are specialized workout accessories designed to protect your hands and provide better grip during weightlifting and other gym exercises. They are commonly used by weightlifters, bodybuilders, and fitness enthusiasts to enhance their training experience and prevent injuries. Here are some key features and benefits of gym gloves:"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hand Protection: Gym gloves are padded on the palms to offer cushioning and protect your hands from calluses, blisters, and abrasions that can occur when lifting heavy weights or performing repetitive exercises."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enhanced Grip: The palms of gym gloves are often made of materials like leather, synthetic leather, or silicone that provide a better grip on barbells, dumbbells, and other gym equipment. This helps reduce the chances of weights slipping out of your hands during exercises."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrist Support: Many gym gloves come with wrist wraps or straps that provide additional support to your wrists during heavy lifting exercises like bench presses, overhead presses, and deadlifts. This support can help stabilize the wrist and reduce the risk of injury."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweat Absorption: Gym gloves often have breathable materials that help absorb sweat from your hands, keeping them dry and comfortable during intense workouts."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

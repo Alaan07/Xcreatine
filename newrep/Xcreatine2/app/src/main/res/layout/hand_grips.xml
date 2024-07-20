@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="@drawable/product_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/hand_grips"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hand Grips"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rs. 1,999"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ask you Trainer for further details and to buy."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym hand grips, also known as hand protectors or gymnastic grips, are fitness accessories designed to protect the palms and provide a better grip during activities that involve intense hand usage. They are commonly used by gymnasts, weightlifters, calisthenics enthusiasts, and individuals engaging in exercises that put stress on the hands, such as pull-ups, muscle-ups, kettlebell swings, and bar work. Here's what you need to know about gym hand grips:"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protection: Gym hand grips are primarily designed to protect the palms of the hands from developing calluses, blisters, and abrasions that can occur during high-rep or high-impact exercises. The grips create a barrier between your hands and the equipment, reducing friction and pressure on the skin."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wrist Support: Some hand grips come with wrist straps or wraps that offer additional support to the wrists during exercises like pull-ups and muscle-ups. This added stability can help reduce the risk of wrist strain or injury."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comfort: Gym hand grips are designed to be comfortable to wear during workouts. They are generally lightweight and allow your hands to breathe, reducing the likelihood of excessive sweat buildup."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Types of Hand Grips: There are different types of gym hand grips available, including three-hole grips, two-hole grips, and palm protectors. Three-hole grips cover the palm and the base of the fingers, while two-hole grips protect the palm and have a hole for the middle and index fingers. Palm protectors are small pieces that cover the palm but don't have holes for the fingers."
+                android:layout_margin="10dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

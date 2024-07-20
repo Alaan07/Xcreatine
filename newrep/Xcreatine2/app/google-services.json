@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "227131157459",
+    "project_id": "x-creatine",
+    "storage_bucket": "x-creatine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227131157459:android:0557cf81da65b107bf5d26",
+        "android_client_info": {
+          "package_name": "com.example.xcreatine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227131157459-cumb0l4p50okr2amihaa2l0tj8lphkkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xcreatine",
+            "certificate_hash": "134cdefe0921ca346ddc276d6ac4403091eb249a"
+          }
+        },
+        {
+          "client_id": "227131157459-tckgsggrg0q1ncl222if2eho2j20ao5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcz-cj3eyEVn4eAIBFD3ghI3cUswUzDkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227131157459-tckgsggrg0q1ncl222if2eho2j20ao5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
